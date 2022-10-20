@@ -1,18 +1,18 @@
-<div style="text-align: center;">
+<div>
     <h2>MAPIT</h2>
     <h3>project specification document</h3>
-    <h4>emanuelfrazao</h4>
+    <h4>author: emanuelfrazao</h4>
 </div>
-<table style="margin-left: auto margin-right: auto;">
+<table>
   <tr>
-    <th style="text-align: center">Document Version</th>
-    <th style="text-align: center">Date</th>
-    <th style="text-align: center">Description</th>
+    <th>Document Version</th>
+    <th>Date</th>
+    <th>Description</th>
   </tr>
   <tr>
-    <td style="text-align: center">1.0</td>
-    <td style="text-align: center"><em>on-going</em></td>
-    <td style="text-align: center">App's full sketch, with first-thought requirements</td>
+    <td>1.0</td>
+    <td><em>on-going</em></td>
+    <td>App's full sketch, with first-thought requirements</td>
   </tr>
 </table>
 
