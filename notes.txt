@@ -1,0 +1,114 @@
+"""
+Specification of MAPIT project.
+"""
+
+>>> INDEX <<<
+
+1. GOALS
+2. CONTEXT
+3. COMPONENTS
+4. FEATURES
+
+
+>>> 1. GOAL <<<
+
+    Provide a graph representation for communicating and digesting structured information.
+
+    The primary example of its applications is the communication of mathematical content - as in, say, Trigonometry.
+    But it should in principle be applicable to any subject/topic/domain that benefits from a principled representation of its contents and connections.
+
+
+>>> 2. CONTEXT <<<
+
+    >> 2.1 PROBLEMS TO SOLVE
+
+        >> 2.1.1 IN MATHEMATICS
+
+        When we consider traditional ways of presenting mathematical content - such as books and video/live ones -,
+        they lack structure in themselves, i.e., they are fundamentally sequential, 1-dimensional.
+
+        This obviously doesn't mean one cannot stress the connections between two, three or four concepts or theorems,
+        it just means that the whole of connections cannot be presented in such a way as to lend them easily revisitable and automatically perceived.
+
+        And when you have a structure-ridden field of subjects, such as mathematics,
+        finding the best way to communicate the connections between concepts seems fundamental.
+
+
+        >> 2.1.2 IN GENERAL
+
+        One can extend this concern to other subjects, such as physics, biology, chemistry, engineering or even languages (natural or artificial).
+
+        In essence, it can be extended to every subject that may be regarded as a structured building.
+
+
+
+    >> 2.2 AVAILABLE TOOLS
+
+        >> 2.2.1
+
+
+>>> 3. USAGE
+
+
+>>> 4. REQUIREMENTS
+
+    >> 4.1 PRINCIPLES
+
+    >> 4.2 COMPONENTS:
+
+
+        * each document [representing a subject (e.g., Geometry, Calculus)] is a stack of sheets [representing topics (e.g., Lines and Angles, Poligons, Trigonometry)];
+        
+        * each sheet is composed of connected nodes;
+        
+        * nodes in a given sheet may be connected to nodes in other sheets (say, trigonometric functions, represented in Calculus, are connected to trigonometric rules, in Trigonometry);
+        
+        * a node must have:
+            * a type; for example, in a mathematics document:
+                * a topic
+                * an observation
+                * a provocation
+                * a definition
+                * a proposition
+                * a theorem
+                * an exercise
+                * an example
+            * a name; for example:
+                * the topic
+                * the concept being defined
+                * the name of the theorem
+                * the numbering of the exercise
+                * etc
+            * optional content determined by its type; for example:
+                * for a proposition, it could be its assumptions, its statement(s), and optionally an image
+
+
+        * a connection is established between (potentially multiple) input nodes and an output node
+
+        * a connection must have a type, e.g., for a mathematics document:
+            * a motivation
+            * a consequence
+            * an equivalence
+            * a corolary
+            * a generalization
+        
+        * a connection can also have some content, say, a text
+
+
+            
+            
+    
+    >> 4.3 FEATURES
+
+
+
+
+        
+
+
+
+
+
+
+
+
